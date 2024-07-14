@@ -59,8 +59,9 @@ def controle_login():
                 result = oauth2.authorize_button(
                     name="Login with Google",
                     icon="https://www.google.com.tw/favicon.ico",
-                    redirect_uri="https://ohmyroute.com/en",
+                    #redirect_uri="https://ohmyroute.com/en",
                     #redirect_uri="http://localhost:8501/en",
+                    redirect_uri="https://oh-my-route.streamlit.app/en",
                     scope="openid email profile",
                     key="google",
                     extras_params={"prompt": "consent", "access_type": "offline"},
