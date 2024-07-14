@@ -1,0 +1,11 @@
+[theme]
+base="dark"
+primaryColor="#007ac1"
+secondaryBackgroundColor="#2b2b3b"
+
+[client]
+showSidebarNavigation = false
+
+[server]
+enableXsrfProtection = false
+enableCORS = false
